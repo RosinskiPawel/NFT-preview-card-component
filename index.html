@@ -6,24 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>challange_17_04_2022</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
-
-  <div class="background">
-      <div class="container">
-          <img class="cube" src="image-equilibrium.jpg" alt="cube">
-      <h1>Equlibrium #3429</h1>
-      <p>Our Equlibrium collection promotes balance and calm.</p>
-      <img class="icon-ethereum" src="icon-ethereum.svg" alt="cyanIcon">
-      <p class="cyan">0.041 ETH</p>
-      <img class="clock" src="icon-clock.svg" alt="clockSmall">
-      <p class="textClock">3 days left</p>
-      <hr>
-      <img class="avatar" src="image-avatar.png" alt="picAvatar">
-      <p class="creation">Creation of <x>Jules Wyvern</x></p> 
-      <!--The selector "x" was my own idea. I am not sure, if it's correct, but it works. 
-    I didn't know, how to change in paragraph the color of the creator's name to white-->
-
+  <body>
+    <div class="container">
+      <div class="container__Card">
+        <div class="cube">
+          <img src="image-equilibrium.jpg" />
+        </div>
+        <div class="text">
+          <h1>Equlibrium #3429</h1>
+        </div>
+        <div class="text">
+          <p>Our Equlibrium collection promotes balance and calm.</p>
+        </div>
+        <div class="container_CyanAndClock">
+          <div class="container_Left">
+            <img src="icon-ethereum.svg" alt="cyanIcon" />
+            <div class="container_Left-text">
+              <p>0.041 ETH</p>
+            </div>
+          </div>
+          <div class="container_Right">
+            <img src="icon-clock.svg" alt="clockIcon" />
+            <div class="container_Right-text">
+              <p>3 days left</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container__avatar">
+          <img src="image-avatar.png" alt="avatarPic" />
+          <div class="container__avatar-text">
+            <p>
+              Creation of
+              <span>Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
+  </body>
 </html>
+
+<!-- <div class="background">
+      <div class="container">
+        <img class="cube" src="image-equilibrium.jpg" alt="cube" />
+        <h1>Equlibrium #3429</h1>
+        <p>Our Equlibrium collection promotes balance and calm.</p>
+        <img class="icon-ethereum" src="icon-ethereum.svg" alt="cyanIcon" />
+        <p class="cyan">0.041 ETH</p>
+        <img class="clock" src="icon-clock.svg" alt="clockSmall" />
+        <p class="textClock">3 days left</p>
+        <hr />
+        <img class="avatar" src="image-avatar.png" alt="picAvatar" />
+        <p class="creation">
+          Creation of
+          <x>Jules Wyvern</x>
+        </p>
+        <!--The selector "x" was my own idea. I am not sure, if it's correct, but it works. 
+    I didn't know, how to change in paragraph the color of the creator's name to white-->
+<!-- </div>
+    </div> -->
