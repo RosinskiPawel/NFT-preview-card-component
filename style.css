@@ -38,8 +38,12 @@ body {
   background-color: var(--card-BG);
   width: 21.875rem;
   height: 37.5rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   box-shadow: 0 15px 40px 15px var(--shadow-color);
+}
+.cube:hover {
+  background-color: aqua;
+  border: 5px; solid;
 }
 .cube img {
   width: 18.75rem;
@@ -54,6 +58,7 @@ body {
   margin-left: 1.56rem;
   margin-top: 0.62rem;
 }
+
 .text p {
   color: var(--soft-blue);
   font-size: 1.125rem;
@@ -136,7 +141,7 @@ hr {
 span {
   color: var(--white);
 }
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .text h1 {
     color: tomato;
     font-size: 1rem;
@@ -145,4 +150,14 @@ span {
   .text p {
     font-size: 0.62rem;
   }
-}
+
+  .cube img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .container__Card {
+    width: 60%;
+    height: 60%;
+  }
+} */
